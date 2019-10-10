@@ -1,6 +1,6 @@
 {
   "name": "unsanitize-basename",
-  "description": "Unsanitize a file name, the inverse of the &quot;sanitize-basename&quot; library.",
+  "description": "Unsanitize a file name, the inverse of the \"sanitize-basename\" library.",
   "version": "1.0.0",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
