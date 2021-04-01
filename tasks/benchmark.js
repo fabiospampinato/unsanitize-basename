@@ -12,7 +12,14 @@ benchmark.defaultOptions = Object.assign ( benchmark.defaultOptions, {
 });
 
 benchmark ({
-  name: 'unsanitize-basename',
+  name: 'negative',
+  fn: () => {
+    unsanitize ( 'foooooooo.txt' );
+  }
+});
+
+benchmark ({
+  name: 'positive',
   fn: () => {
     unsanitize ( '‹›꞉ˮ⁄∖ǀʔ⁎.txt' );
   }
