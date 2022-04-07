@@ -1,15 +1,19 @@
 
 /* IMPORT */
 
-import {REPLACEMENT_CHARACTERS, REGEX} from './consts';
+import {REPLACEMENT_CHARACTERS, REGEX} from './constants';
 
-/* UNSANITIZE BASENAME */
+/* MAIN */
 
-function unsanitize ( name: string ): string {
+const unsanitize = ( name: string ): string => {
 
-  return name.replace ( REGEX, x => REPLACEMENT_CHARACTERS[x] );
+  return name.replace ( REGEX, char => {
 
-}
+    return REPLACEMENT_CHARACTERS[char] || '';
+
+  });
+
+};
 
 /* EXPORT */
 

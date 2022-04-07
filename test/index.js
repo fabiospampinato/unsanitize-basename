@@ -1,10 +1,10 @@
 
 /* IMPORT */
 
-import {describe} from 'ava-spec';
-import {default as unsanitize} from '../dist';
+import {describe} from 'fava';
+import unsanitize from '../dist/index.js';
 
-/* UNSANITIZE BASENAME */
+/* MAIN */
 
 describe ( 'unsanitize', it => {
 

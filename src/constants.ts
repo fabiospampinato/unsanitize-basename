@@ -1,5 +1,5 @@
 
-/* CONSTS */
+/* MAIN */
 
 const REPLACEMENT_CHARACTERS = { //URL: https://github.com/fabiospampinato/sanitize-basename/tree/master/src/consts.ts
   '‹': '<',

@@ -1,10 +1,10 @@
 
 /* IMPORT */
 
-const {default: unsanitize} = require ( '../dist' ),
-      benchmark = require ( 'benchloop' );
+import benchmark from 'benchloop';
+import unsanitize from '../dist/index.js';
 
-/* BENCHMARK */
+/* MAIN */
 
 benchmark.defaultOptions = Object.assign ( benchmark.defaultOptions, {
   iterations: 100000,
