@@ -2,7 +2,7 @@
   "name": "unsanitize-basename",
   "repository": "github:fabiospampinato/unsanitize-basename",
   "description": "Unsanitize a file name, the inverse of the \"sanitize-basename\" library.",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "type": "module",
   "main": "dist/index.js",
   "exports": "./dist/index.js",
