@@ -13,8 +13,8 @@ const REPLACEMENT_CHARACTERS = { //URL: https://github.com/fabiospampinato/sanit
   '⁎': '*'
 };
 
-const REGEX = /[‹›꞉ˮ⁄∖ǀʔ⁎]/g;
+const REPLACEMENT_RE = /[‹›꞉ˮ⁄∖ǀʔ⁎]/g;
 
 /* EXPORT */
 
-export {REPLACEMENT_CHARACTERS, REGEX};
+export {REPLACEMENT_CHARACTERS, REPLACEMENT_RE};
